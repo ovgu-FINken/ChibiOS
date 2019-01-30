@@ -223,7 +223,7 @@
 #define STM32_SPII2S_MAX        45000000
 #endif
 
-#if defined(STM32F40_41xxx)
+#if defined(STM32F40_41xxx) || defined(STM32F415xx)
 #define STM32_SYSCLK_MAX        168000000
 #define STM32_HSECLK_MAX        26000000
 #define STM32_HSECLK_BYP_MAX    50000000
